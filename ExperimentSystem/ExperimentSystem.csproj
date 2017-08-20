@@ -166,9 +166,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201708181718573_InitialCreate.cs" />
-    <Compile Include="Migrations\201708181718573_InitialCreate.Designer.cs">
-      <DependentUpon>201708181718573_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201708200703298_InitalCreate.cs" />
+    <Compile Include="Migrations\201708200703298_InitalCreate.Designer.cs">
+      <DependentUpon>201708200703298_InitalCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ExperimentContext.cs" />
@@ -224,8 +224,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Students\Index.cshtml" />
     <Content Include="Views\Supervisors\Index.cshtml" />
+    <Content Include="Views\Students\Create.cshtml" />
+    <Content Include="Views\Students\Delete.cshtml" />
+    <Content Include="Views\Students\Details.cshtml" />
+    <Content Include="Views\Students\Edit.cshtml" />
+    <Content Include="Views\Students\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -258,8 +262,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201708181718573_InitialCreate.resx">
-      <DependentUpon>201708181718573_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201708200703298_InitalCreate.resx">
+      <DependentUpon>201708200703298_InitalCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
